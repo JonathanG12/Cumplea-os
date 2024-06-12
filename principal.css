@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/rosas.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Great Vibes', cursive; /* Agregué una fuente cursiva para darle un toque más femenino */
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* Cambié el color del texto a blanco para que se vea mejor sobre el fondo rosa */
+  }
+  
+  header img {
+    width: 250px; /* Ajusté el ancho de la imagen para que sea más grande y visible */
+    height: 300px;
+    border-radius: 40%;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregué una sombra para darle profundidad a la imagen */
+  }
+  
+  h1 {
+    font-size: 48px; /* Aumenté el tamaño del título para que sea más impactante */
+    font-weight: bold;
+    color: #ecdddd; /* Mantuve el color original, pero puedes cambiarlo a uno que se ajuste mejor al fondo rosa */
+    text-shadow:
+    -5px -1px 0 #000000, /* Sombra blanca para crear el contorno */
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #ecdddd; /* Mantuve el color original, pero puedes cambiarlo a uno que se ajuste mejor al fondo rosa */
+    font-style: italic; /* Agregué un estilo itálico para darle un toque más femenino */
+    text-shadow:
+    -1px -1px 0 #000000, /* Sombra blanca para crear el contorno */
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+  }
+  
+  .countdown {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Agregué un fondo transparente para que se vea mejor sobre el fondo rosa */
+    border-radius: 10px; /* Agregué un borde redondeado para darle un toque más suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregué una sombra para darle profundidad */
+  }
+  
+  .countdown span {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px;
+    color: #ecdddd; /* Cambié el color del texto a uno que se ajuste mejor al fondo rosa */
+    text-shadow:
+    -5px -1px 0 #000000, /* Sombra blanca para crear el contorno */
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+  }
+  
+  .countdown p {
+    font-size: 18px;
+    margin: 10px;
+    color: #ecdddd; /* Mantuve el color original, pero puedes cambiarlo a uno que se ajuste mejor al fondo rosa */
+    text-shadow:
+    -1px -1px 0 #000000, /* Sombra blanca para crear el contorno */
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+  }
+
+  .spaced {
+    word-spacing: 50px; /* Agrega 10 píxeles de espacio adicional entre las palabras */
+  }
